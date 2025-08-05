@@ -1,0 +1,11 @@
+INSERT INTO reports (person_id, content) VALUES (1, 'abcd');
+INSERT INTO reports (person_id, content) VALUES (1, 'efgh');
+INSERT INTO reports (person_id, content) VALUES (2, 'ijkl');
+INSERT INTO reports (person_id, content) VALUES (2, 'mnop');
+INSERT INTO reports (person_id, content) VALUES (3, 'qrst');
+INSERT INTO reports (person_id, content) VALUES (3, 'uvwx');
+INSERT INTO reports (person_id, content) VALUES (3, 'yzab');
+INSERT INTO reports (person_id, content) VALUES (4, 'cdef');
+INSERT INTO reports (person_id, content) VALUES (4, 'ghij');
+INSERT INTO reports (person_id, content) VALUES (4, 'klmn');
+INSERT INTO reports (person_id, content) VALUES (999, 'zzzz');

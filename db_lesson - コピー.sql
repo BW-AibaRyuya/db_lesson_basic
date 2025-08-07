@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 INSERT INTO reports (person_id, content) VALUES (1, 'abcd');
 INSERT INTO reports (person_id, content) VALUES (1, 'efgh');
 INSERT INTO reports (person_id, content) VALUES (2, 'ijkl');

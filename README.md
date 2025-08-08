@@ -94,3 +94,18 @@ FROM people
 WHERE person_id NOT IN (
   SELECT person_id FROM reports
 );
+
+q10 追加
+SELECT
+  people.name AS name,
+  departments.name AS department_name,
+  reports.content
+FROM
+  reports
+JOIN people ON reports.person_id = people.person_id
+JOIN departments ON people.department_id = departments.department_id;
+q11 追加
+SELECT people.name
+FROM people
+LEFT JOIN reports ON people.person_id = reports.person_id
+WHERE reports.person_id IS NULL;
